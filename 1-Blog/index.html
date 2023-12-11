@@ -6,51 +6,49 @@
     <meta name="description"
           content="Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений."/>
     <title>Блог</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 <header>
     <nav>
-        <img src="" alt="логотип">
-
+        <img src="./img/logo.svg" alt="логотип">
         <ul>
-            <li>Мой блог</li>
+            <li id="blog">Мой блог</li>
             <li>HTML и CSS</li>
             <li>Frontend</li>
             <li>Backend</li>
         </ul>
-
         <div>
             <img src="./img/search.svg" alt="картинка поиска">
             <label>
                 <input type="text" placeholder="Поиск">
             </label>
         </div>
-
     </nav>
-
 </header>
 
 <main>
     <section>
-        <div>
-            <p>
-                FRONTEND &#8226 12 мая 2024
-            </p>
+        <div class="categoryAndDate">
+            <span class="text">
+                FRONTEND
+            </span>
+            <span class="text">&#8226</span>
+            <time class="text">12 мая 2024</time>
         </div>
-        <article>
-            <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-        </article>
-        <div>
-            <img src="./img/authorAvatar.svg" alt="Аватар автора статьи в блоге">
-            <p>
-                Наталья Васильева <br>
-                Разработчик
-            </p>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+        <div class="about-author">
+            <img src="./img/author.svg" alt="Аватар автора статьи в блоге">
+            <span class="text author-name">
+                Наталья Васильева
+            </span>
+            <span class="text">Разработчик</span>
         </div>
     </section>
     <section>
-        <img src="./img/pc.png" alt="pc"> <br>
-        <p>
+        <img src="./img/pc.png" alt="pc" class="contentImage"> <br>
+        <p class="content-text">
             Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета
             и
             различные
@@ -71,9 +69,8 @@
             цветов на поведение пользователей.
         </p>
     </section>
-
     <section>
-        <p>
+        <p class="content-text subtext">
             В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование
             разных
             цветов
@@ -89,7 +86,7 @@
 </main>
 
 <footer>
-    <p>
+    <p class="text">
         Все права защищены &#169 2024
     </p>
 </footer>
