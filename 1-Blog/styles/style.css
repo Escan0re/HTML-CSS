@@ -48,11 +48,11 @@ h1 {
     margin-bottom: 14px;
 }
 
-.aboutAuthor {
+.about-author {
     margin-bottom: 28px;
 }
 
-.aboutAuthor span {
+.about-author span {
     display: block;
 }
 
@@ -61,7 +61,7 @@ h1 {
     opacity: 0.6;
 }
 
-.authorName {
+.author-name {
     font-size: 16px;
     line-height: 28px;
 }
@@ -71,7 +71,7 @@ h1 {
     margin-bottom: 69px;
 }
 
-.contentText {
+.content-text {
     margin-bottom: 30px;
     font-size: 20px;
     line-height: 32px;
